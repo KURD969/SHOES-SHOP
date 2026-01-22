@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device, initial-scale=1.0">
+	<title>shoes-shop</title>
+	<link rel="stylesheet" type="text/css" href="stayl.css">
+</head>
+<body>
+
+
+
+<div class="header2">
+	<div class="container">
+	    <div class="navbar">
+   		
+   	     	<div class="logo">
+   				    <a href="shoes shop.html"> <img src="logo2.png" width="80" height="80">  </a>
+   			</div>
+   		    	<nav>
+   		  	        <ul>
+   						<li><a class="bba" href="shoes shop.html">HOME</a></li>
+   						<li><a class="bba" href="PUMA.html">PUMA</a></li>
+   						<li><a class="bba" href="NIKE.html">NIKE</a></li>
+   						<li><a class="bba" href="ADDAS.html">ADDAS</a></li>
+   			        </ul>
+   		    	</nav>
+   	    </div>
+   	    		
+	</div>
+</div>
+
+<!-----------------------------------page seel stayl------------------------------------>	
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="p1.png" id="Productimg">
+	<div class="small-img-row">
+					<div class="small-img-col">
+						<img src="ppp1.png" width="100%" class="smallimg">
+					</div>
+					<div class="small-img-col">
+						<img src="p2.png"width="100%" class="smallimg">
+					</div>
+					<div class="small-img-col">
+						<img src="p3.png"width="100%" class="smallimg">
+					</div>
+					<div class="small-img-col">
+						<img src="p4.png"width="100%" class="smallimg">
+					</div>
+					<div class="small-img-col">
+						<img src="p5.png"width="100%" class="smallimg">
+					</div>
+
+
+			</div>
+
+
+
+
+
+
+        </div>
+        <div class="col-22">
+            <p>Home / Shoes</p>
+            <h1>Suede Classic Men Sneakers</h1>
+            <h4>$75.17</h4>
+            <select>
+                <option>select size</option>
+                <option>45</option>
+                <option>44</option>
+                <option>43</option>
+                <option>42</option>
+                <option>41</option>
+				<option>40</option>
+				<option>38</option>
+				<option>36</option>
+				<option>33</option>
+            </select>
+            <input type="number" value="1">
+            <a href="login.html" class="btn"> Biy Now </a>
+            <p>color</p>
+            <h3>Black'White , Black'blue ,  Grey , Dark Green </h3>
+			<br>
+            <p>Unisex style Product runs in mens sizes only</p>
+        </div>
+    </div>
+</div>
+
+<!-----------------title---------------->
+<div class="small-container">
+	<div class="row row-2">
+		<h2>More Shoes</h2>
+	</div>
+</div>
+
+
+<!-----------------more shoes---------------->
+ <div class="small-container">
+		<div class="row">
+			<div class="col-4">
+				<a href="ADDAS.html"> <img src="addas.gif"> </a>
+				<h4 class="boss">ADDAS SHOES</h4>
+				<hr>
+			</div>
+			<div class="col-4">
+				<a href="NIKE.html"> <img src="naik.gif" height="280"> </a>
+				<h4 class="boss">NIKE SHOES</h4>
+				<hr>
+			</div>
+			<div class="col-4">
+				<a href="PUMA.HTML"> <img src="puma.gif"> </a>
+				 <h4 class="boss">PUMA SHOES</h4>
+				<hr>
+			</div>
+	</div>
+
+</div>
+<!-------------------------f00ter-------------------------------->
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-2">
+				<a href="shoes shop.html"><img src="logo3.png"></a>	
+			</div>
+			<div class="footer-col-2">
+				<a href="PUMA.html"><img src="logopuma.png"> </a>
+			</div>
+			<div class="footer-col-2">
+				<a href="NIKE.html"><img src="logonike.png"> </a>
+			</div>
+			<div class="footer-col-2">
+				<a href="ADDAS.html"><img src="logoadidas.png"> </a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!----------js for product-img-------->
+
+<script>
+	var Productimg = document.getElementById("Productimg");
+	var SmallImg = document.getElementsByClassName("smallimg");
+
+		SmallImg[0].onclick = function()
+		{
+			Productimg.src = SmallImg[0].src;
+		}
+		SmallImg[1].onclick = function()
+		{
+			Productimg.src = SmallImg[1].src;
+		}
+		SmallImg[2].onclick = function()
+		{
+			Productimg.src = SmallImg[2].src;
+		}
+		SmallImg[3].onclick = function()
+		{
+			Productimg.src = SmallImg[3].src;
+		}		
+		SmallImg[4].onclick = function()
+		{
+			Productimg.src = SmallImg[4].src;
+		}
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
